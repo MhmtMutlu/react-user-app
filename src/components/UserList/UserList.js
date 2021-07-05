@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { UserContext } from '../../contexts/UserContext'
 import User from '../User/User'
 import { WrapperSection, Wrapper, CardList } from "./styles"
 
 const UserList = () => {
 
-    let arr = [1,2,3,4,5,6,7,8,9,10]
+    const {users} = useContext(UserContext) 
 
     return (
         <React.Fragment>
@@ -12,8 +13,8 @@ const UserList = () => {
                 <Wrapper>
                     <CardList>
                         {
-                            arr.map((user, index) => {
-                                return <User key={index}/>
+                            users.map((user, index) => {
+                                return <User user={user} key={index}/>
                             })
                         }
                     </CardList>
