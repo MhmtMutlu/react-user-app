@@ -11,7 +11,7 @@ const User = (props) => {
             .then((response) => {
                 setUsersDetails(response.data)
             })
-    }, [])
+    }, [props.user])
 
     const currentYear = new Date().getFullYear()
     const dateOfBirth = usersDetails.dateOfBirth && usersDetails.dateOfBirth.slice(0, 4)
