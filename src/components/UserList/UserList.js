@@ -5,7 +5,7 @@ import { WrapperSection, Wrapper, CardList } from "./styles"
 
 const UserList = () => {
 
-    const {users} = useContext(UserContext) 
+    const {filteredUsers} = useContext(UserContext) 
 
     return (
         <React.Fragment>
@@ -13,7 +13,7 @@ const UserList = () => {
                 <Wrapper>
                     <CardList>
                         {
-                            users.map((user, index) => {
+                            filteredUsers.map((user, index) => {
                                 return <User user={user} key={index}/>
                             })
                         }

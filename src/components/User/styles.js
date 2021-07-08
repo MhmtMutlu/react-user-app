@@ -5,7 +5,7 @@ export const Card = styled.div`
     height: 22rem;
     postion: relative;
     text-align: center;
-    margin: 2rem 0 2rem 2.5rem;
+    margin: 2rem 1rem 2rem 1rem;
     background-color: gray;
 `
 

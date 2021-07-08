@@ -4,6 +4,9 @@ export const WrapperSection = styled.section`
     margin: 0;
     padding: 0;
     min-height: 100vh;
+    @media (max-width: 750px) {
+        font-size: 14px;
+    }
 `
 
 export const Wrapper = styled.div`
