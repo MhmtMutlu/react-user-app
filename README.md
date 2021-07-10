@@ -1,6 +1,6 @@
 # ⚛️ User App with ReactJS
 
-I have coded an user app with ReactJS as challenge from <a href="https://www.quickload.com/">QuickLoad</a>.
+I have coded an user app with ReactJS as a challenge from <a href="https://www.quickload.com/">QuickLoad</a>.
 
 <a href="https://react-user-app-challenge.netlify.app/">Go to Website</a>
 
