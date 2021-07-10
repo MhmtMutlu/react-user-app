@@ -9,7 +9,7 @@ const UserContextProvider = (props) => {
     const [limit, setLimit] = useState(10)
     
     useEffect(() => {
-        axios.get("https://dummyapi.io/data/api/user?limit=" + limit, { headers: { 'app-id': "60e6ff797b73cc658fe0a67e"}})
+        axios.get("https://dummyapi.io/data/api/user?limit=" + limit, { headers: { 'app-id': "60e414df9797110276858f0f"}})
             .then((response) => {
                 setUsers(response.data.data)
             })
