@@ -1,11 +1,11 @@
 import React, { useContext } from 'react'
 import { UserContext } from '../../contexts/UserContext'
 import User from '../User/User'
-import { WrapperSection, Wrapper, CardList } from "./styles"
+import { WrapperSection, Wrapper, CardList, LoadButton } from "./styles"
 
 const UserList = () => {
 
-    const {filteredUsers} = useContext(UserContext) 
+    const {filteredUsers, loadMore} = useContext(UserContext) 
 
     return (
         <React.Fragment>
@@ -18,6 +18,7 @@ const UserList = () => {
                             })
                         }
                     </CardList>
+                    <LoadButton onClick={loadMore}>Load More</LoadButton>
                 </Wrapper>
             </WrapperSection>
         </React.Fragment>
