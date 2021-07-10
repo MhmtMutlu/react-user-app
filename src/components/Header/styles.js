@@ -4,7 +4,7 @@ export const HeaderSection = styled.div`
     margin: 0;
     padding: 0;
     height: 8rem;
-    background-color: gray;
+    background-color: #343a40;
 `
 
 export const Section = styled.div`
@@ -17,5 +17,5 @@ export const Section = styled.div`
 `
 
 export const Title = styled.h1`
-    color: white;
+    color: #dee2e6;
 `

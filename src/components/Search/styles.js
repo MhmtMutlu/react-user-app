@@ -21,13 +21,23 @@ export const Section = styled.div`
 
 export const Title = styled.h3`
     font-size: 24px;
+    color: #343a40;
 `
 
 export const SearchBar = styled.input`
     width: 40%;
+    border: none;
+    border-bottom: 2px solid #343a40;
     border-radius: 1rem;
+    background-color: #dee2e6;
+    color: #343a40;
     outline: none;
     padding: 1rem;
+
+    &::placeholder {
+        color: #343a40;
+    }
+
     @media (max-width: 750px) {
         width: 12rem;
     }
