@@ -9,6 +9,12 @@ export const Card = styled.div`
     background-color: #dee2e6;
     border-bottom: 5px solid #343a40;
     border-radius: 2rem;
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        box-shadow: 0px 2px 5px 5px #adb5bd;
+    }
 `
 
 export const CardHeader = styled.div`

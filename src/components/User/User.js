@@ -25,7 +25,7 @@ const User = (props) => {
                     <CardImage src={props.user.picture} alt="randomuser"/>
                 </CardHeader>
                 <CardBody>
-                    <CardTitle>{props.user.firstName} {props.user.lastName} {usersDetails.dateOfBirth && `, ${currentYear - dateOfBirth}`}</CardTitle>
+                    <CardTitle>{props.user.firstName} {props.user.lastName}{usersDetails.dateOfBirth && `, ${currentYear - dateOfBirth}`}</CardTitle>
                     <CartText>{props.user.email}</CartText>
                     {
                         usersDetails.location && <CartText>{usersDetails.location?.country}</CartText>
