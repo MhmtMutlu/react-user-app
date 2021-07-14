@@ -1,5 +1,5 @@
 import React from 'react'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import axios from 'axios'
 import { Card, CardHeader, CardImage, CardBody, CardTitle, CartText } from "./styles"
 
@@ -13,7 +13,6 @@ const User = (props) => {
             setUsersDetails(response.data)
         })
     }
-    
 
     const currentYear = new Date().getFullYear()
     const dateOfBirth = usersDetails.dateOfBirth && usersDetails.dateOfBirth.slice(0, 4)
