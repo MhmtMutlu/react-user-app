@@ -42,6 +42,6 @@ export const CardTitle = styled.h3`
     font-size: 24px;
 `
 
-export const CartText = styled.p`
-    margin: 0.7rem;
+export const CardText = styled.p`
+    margin: 0.2rem;
 `
