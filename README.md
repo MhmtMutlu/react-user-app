@@ -1,6 +1,6 @@
 # ⚛️ User App with ReactJS
 
-I have coded an user app with ReactJS as a challenge from <a href="https://www.quickload.com/">QuickLoad</a>.
+I have coded an user app with ReactJS for making practice. In this project, I have tried to use these technologies which are in below.
 
 <a href="https://react-user-app-challenge.netlify.app/">Go to Website</a>
 
